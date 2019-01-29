@@ -55,7 +55,7 @@ dependencies {
 }
 
 group = 'com.github.mirceanis.multi-flavor-lib-demo'
-version = library_version
+version = 0.09 //library_version
 
 if (android.productFlavors.size() > 0) {
     android.libraryVariants.all { variant ->
